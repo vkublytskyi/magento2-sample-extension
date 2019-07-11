@@ -1,0 +1,17 @@
+{
+    "name": "vkublytskyi/magento2-sample-extension-module-a",
+    "version": "1.0.0",
+    "type": "magento2-module",
+    "description": "Skeleton of Magento 2 extension: Module A.",
+    "require": {
+        "magento/framework": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+
+        }
+    }
+}

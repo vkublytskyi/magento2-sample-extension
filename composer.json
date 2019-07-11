@@ -1,0 +1,10 @@
+{
+    "name": "vkublytskyi/magento2-sample-extension",
+    "version": "1.0.0",
+    "type": "metapackage",
+    "description": "Skeleton of Magento 2 extension",
+    "require": {
+        "vkublytskyi/magento2-sample-extension-module-a": "*",
+        "vkublytskyi/magento2-sample-extension-module-b": "*"
+    }
+}
