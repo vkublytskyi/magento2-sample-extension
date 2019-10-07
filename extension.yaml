@@ -1,0 +1,5 @@
+targets:
+  - editions:
+      - open-source
+    versions:
+      - 2.3.*
