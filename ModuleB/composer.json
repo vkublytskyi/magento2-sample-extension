@@ -11,7 +11,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "MagentoEQPS\\SampleExtension\\ModuleA": ""
+            "MagentoEQPS\\SampleExtension\\ModuleB\\": ""
         }
     }
 }
