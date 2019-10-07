@@ -1,0 +1,51 @@
+{
+  "uid" : "7a806bde135ba7f5",
+  "name" : "testValidComposerJson",
+  "fullName" : "Magento\\Test\\Integrity\\ComposerTest.testValidComposerJson",
+  "historyId" : "64481284ca2709274afed9ad34a4b602",
+  "time" : {
+    "start" : 1570485367531,
+    "stop" : 1570485387632,
+    "duration" : 20101
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Passed: 181, Failed: 2, Incomplete: 0, Skipped: 0.\nData set: /var/www/html/app/code/MagentoEQPS/SampleExtensionModuleA\nFailed asserting that object of class \"stdClass\" has attribute \"license\".\n/var/www/html/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:162\n/var/www/html/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91\n/var/www/html/lib/internal/Magento/Framework/App/Utility/AggregateInvoker.php:56\n/var/www/html/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93\n\nData set: /var/www/html/app/code/MagentoEQPS/SampleExtensionModuleB\nFailed asserting that object of class \"stdClass\" has attribute \"license\".\n/var/www/html/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:162\n/var/www/html/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91\n/var/www/html/lib/internal/Magento/Framework/App/Utility/AggregateInvoker.php:56\n/var/www/html/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93\n",
+  "statusTrace" : "#0 /var/www/html/lib/internal/Magento/Framework/App/Utility/AggregateInvoker.php(115): PHPUnit\\Framework\\Assert::fail('Passed: 181, Fa...')\n#1 /var/www/html/lib/internal/Magento/Framework/App/Utility/AggregateInvoker.php(70): Magento\\Framework\\App\\Utility\\AggregateInvoker->processResults(Array, 181)\n#2 /var/www/html/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php(93): Magento\\Framework\\App\\Utility\\AggregateInvoker->__invoke(Object(Closure), Array)\n#3 [internal function]: Magento\\Test\\Integrity\\ComposerTest->testValidComposerJson()\n#4 /var/www/html/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod->invokeArgs(Object(Magento\\Test\\Integrity\\ComposerTest), Array)\n#5 /var/www/html/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\\Framework\\TestCase->runTest()\n#6 /var/www/html/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\\Framework\\TestCase->runBare()\n#7 /var/www/html/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\\Framework\\TestResult->run(Object(Magento\\Test\\Integrity\\ComposerTest))\n#8 /var/www/html/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\\Framework\\TestCase->run(Object(PHPUnit\\Framework\\TestResult))\n#9 /var/www/html/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\\Framework\\TestSuite->run(Object(PHPUnit\\Framework\\TestResult))\n#10 /var/www/html/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\\Framework\\TestSuite->run(Object(PHPUnit\\Framework\\TestResult))\n#11 /var/www/html/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\\TextUI\\TestRunner->doRun(Object(PHPUnit\\Framework\\TestSuite), Array, true)\n#12 /var/www/html/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\\TextUI\\Command->run(Array, true)\n#13 /var/www/html/vendor/phpunit/phpunit/phpunit(53): PHPUnit\\TextUI\\Command::main()\n#14 {main}",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Magento\\Test\\Integrity\\ComposerTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Magento\\Test\\Integrity\\ComposerTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testValidComposerJson"
+  }, {
+    "name" : "package",
+    "value" : "Magento\\Test\\Integrity\\ComposerTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7a806bde135ba7f5.json",
+  "parameterValues" : [ ]
+}

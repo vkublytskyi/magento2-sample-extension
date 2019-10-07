@@ -1,0 +1,51 @@
+{
+  "uid" : "5f169a7ca7a356b0",
+  "name" : "testUndeclared",
+  "fullName" : "Magento\\Test\\Integrity\\DependencyTest.testUndeclared",
+  "historyId" : "2782348f2e24b7b3fef66a94fa716b1e",
+  "time" : {
+    "start" : 1570485388234,
+    "stop" : 1570485397859,
+    "duration" : 9625
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "strstr() expects parameter 1 to be string, boolean given",
+  "statusTrace" : "#0 /var/www/html/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\\Framework\\TestResult->run(Object(Magento\\Test\\Integrity\\DependencyTest))\n#1 /var/www/html/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\\Framework\\TestCase->run(Object(PHPUnit\\Framework\\TestResult))\n#2 /var/www/html/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\\Framework\\TestSuite->run(Object(PHPUnit\\Framework\\TestResult))\n#3 /var/www/html/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\\Framework\\TestSuite->run(Object(PHPUnit\\Framework\\TestResult))\n#4 /var/www/html/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\\TextUI\\TestRunner->doRun(Object(PHPUnit\\Framework\\TestSuite), Array, true)\n#5 /var/www/html/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\\TextUI\\Command->run(Array, true)\n#6 /var/www/html/vendor/phpunit/phpunit/phpunit(53): PHPUnit\\TextUI\\Command::main()\n#7 {main}",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Magento\\Test\\Integrity\\DependencyTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Magento\\Test\\Integrity\\DependencyTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testUndeclared"
+  }, {
+    "name" : "package",
+    "value" : "Magento\\Test\\Integrity\\DependencyTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5f169a7ca7a356b0.json",
+  "parameterValues" : [ ]
+}
