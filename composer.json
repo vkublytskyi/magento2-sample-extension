@@ -6,5 +6,8 @@
     "require": {
         "vkublytskyi/magento2-sample-extension-module-a": "*",
         "vkublytskyi/magento2-sample-extension-module-b": "*"
+    },
+    "extra": {
+        "build": 1
     }
 }
