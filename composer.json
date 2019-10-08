@@ -8,6 +8,6 @@
         "vkublytskyi/magento2-sample-extension-module-b": "*"
     },
     "extra": {
-        "build": 1
+        "build": 2
     }
 }
